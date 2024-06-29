@@ -3,10 +3,10 @@
 ## Overview
 This Python program calculates the generating function for the King's polynomial using a recursive approach. The generating function is represented by the recursive formula:
 
-R(C, r) = x*R(C1, r) + R(C2, r)
+R(C, x) = x*R(C1, x) + R(C2, x)
 
 where:
-- \( R(C, r) \) is the generating function for the King's polynomial.
+- \( R(C, x) \) is the generating function for the King's polynomial.
 - \( C \) represents the shape we are working on.
 
 
