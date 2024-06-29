@@ -1,25 +1,37 @@
-King's Polynomial Generating Function Calculator
-Overview
+# King's Polynomial Generating Function Calculator
+
+## Overview
 This Python program calculates the generating function for the King's polynomial using a recursive approach. The generating function is represented by the recursive formula:
 
-𝑅(𝐶,𝑟)=𝑥⋅𝑅(𝐶1,𝑟)+𝑅(𝐶2,𝑟)
+\[ R(C, x) = x \cdot R(C_1, x) + R(C_2, x) \]
 
 where:
-R(C,r) is the generating function for the King's polynomial.
-
-C the shape we are working on
-
-r represends the kings we are placing
-Usage
-Input:
-First give the program the rows and cols of your shape eg 3 3
-then your shape:
-0 0 0
-0 0 0
-0 0 0
-
-putting 1's means no king is allowed in that particular province.
+- \( R(C, r) \) is the generating function for the King's polynomial.
+- \( C \) represents the shape we are working on.
 
 
-Execution: Run the Python script to compute the generating function. The program will output the result of R(C,r).
+## Usage
+### Input
+1. **Provide Input Dimensions**:
+   - First, specify the dimensions (rows and columns) of your shape. For example, `3 3` indicates a shape with 3 rows and 3 columns.
 
+2. **Shape Representation**:
+   - Input your shape matrix:
+     ```
+     0 0 0
+     0 0 0
+     0 0 0
+     ```
+     - Use `0` to denote places where kings are allowed and `1` where they are not.
+
+### Execution
+- Run the Python script to compute the generating function. The program will output the result of \( R(C, x) \).
+
+### Example
+- Define the dimensions and shape matrix within the script as per your problem requirements.
+- Execute the script to compute the generating function using the recursive relation provided.
+
+## Notes
+- Ensure Python is installed on your system.
+- The program uses symbolic computation and recursion to compute the generating function.
+- Customize the program structure and input handling based on your specific problem setup.
