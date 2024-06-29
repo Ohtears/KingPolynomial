@@ -86,7 +86,7 @@ class KingPolynomial:
 
 
         print("Generating Function (King Polynomial):")
-        print(f"R(matrix, r) = {simplified_expr}")
+        print(f"R(C, x) = {simplified_expr}")
         print(f"Elapsed time: {elapsed_time:.4f} seconds")
 
 
